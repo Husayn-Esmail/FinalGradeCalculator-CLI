@@ -17,20 +17,17 @@ Future Plans:
 3. Add equation processing so the percentage doens't need to be calculated by the user first. 
 4. Continuous Loop for the program
 
-                                      Sample input.txt:
-                   ------------------------------------------------------
-#Grades            |3                                                   |
-(grade, weight)    |83.3333333 30                                       |
-(grade, weight)    |90 20                                               | 
-(grade, weight)    |92.5 20                                             | 
-final weight       |30                                                  |
-increment          |10                                                  |
-                   |                                                    |
-                   |                                                    |
-                   |                                                    |
-                   |                                                    |        
-                   |                                                    |
-                   ------------------------------------------------------
+Sample input.txt:
+[input.txt](https://github.com/Husayn-Esmail/FinalGradeCalculator-CLI/files/7731868/input.txt)
+
+in the format:
+number of Grades (excluding final)
+(grade, weight)  
+(grade, weight)  
+(grade, weight)    
+final weight    
+increment        
+
 
 
 
