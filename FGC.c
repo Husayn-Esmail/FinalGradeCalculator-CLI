@@ -11,7 +11,7 @@ void validateScanf(int n) {
     return;
 }
 
-int main(int argc, char *argv[]) { 
+int main(void) {  // add int argv,char *argv[] for command line args
     // detects if using redirection operator or not
     bool redirect;    
     (isatty(STDIN_FILENO)) ? (redirect = false) : (redirect = true); 
@@ -50,7 +50,7 @@ int main(int argc, char *argv[]) {
     validateScanf(ii);
 
     // calculate average
-    float average;
+    float average = 0.0;
     // calculates average before final mark:
     for (int i = 0; i < numGrades; i++) {
         average += grades[i];
