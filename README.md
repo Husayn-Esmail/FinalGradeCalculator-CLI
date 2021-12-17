@@ -1,7 +1,7 @@
 # FinalGradeCalculator-CLI
 A final grade calculator command line tool.
 Work in progress.
-
+WARNING: the code is not good yet. it works but it's not good. 
 Functionality so far:
 Asks user to input grades in percentage format and their respective weights.
 Then asks for the weight of the final.
@@ -17,7 +17,7 @@ Future Plans:
 3. Add equation processing so the percentage doens't need to be calculated by the user first. 
 4. Continuous Loop for the program
 
-Sample input.txt:
+                                      Sample input.txt:
                    ------------------------------------------------------
 #Grades            |3                                                   |
 (grade, weight)    |83.3333333 30                                       |
@@ -31,3 +31,7 @@ increment          |10                                                  |
                    |                                                    |        
                    |                                                    |
                    ------------------------------------------------------
+
+
+
+
