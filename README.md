@@ -1,5 +1,16 @@
 # FinalGradeCalculator-CLI
 A final grade calculator command line tool.
+[Installation]
+Ensure you have GCC installed
+Clone the repository
+open a terminal in the repository directory
+run the "make" command (without quotations)
+then run the program with "./FGC" (again without quotations)
+
+to test with the sample input (input.txt)
+run "./FGC < input.txt"
+
+
 Work in progress.
 WARNING: the code is not good yet. it works but it's not good. 
 Functionality so far:
