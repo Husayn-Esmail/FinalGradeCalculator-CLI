@@ -26,11 +26,11 @@ int main(void) {  // add int argv,char *argv[] for command line args
     // get grades;
     for (int i = 0; i < numGrades; i++) { 
         // get grade
-        if (!redirect) printf("Enter grade %d: ", i+1);
+        if (!redirect) printf("Enter grade %d (integer): ", i+1);
         int gi = scanf("%f", &grade);
         validateScanf(gi);
         // get weight
-        if (!redirect) printf("Enter weight: ");
+        if (!redirect) printf("Enter weight (integer): ");
         int wi = scanf("%f", &weight);
         validateScanf(wi);
 
