@@ -1,5 +1,13 @@
 # FinalGradeCalculator-CLI
 A final grade calculator command line tool.
+
+There are two versions of this program, one in C and the other in Python.
+I originally wrote the program in C for fun but then I realized I should
+probably make it portable too and while you can compile multiple versions,
+since I've left it to the user to compile the code for themselves, I should
+have a version that is portable. Also, I meant to update this over the last 
+few months but school got in the way.
+
 [Installation]
 Ensure you have GCC installed
 Clone the repository
